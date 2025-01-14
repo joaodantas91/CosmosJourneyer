@@ -46,6 +46,8 @@ export default [{
         "import/no-cycle": "error",
         "import/no-unresolved": "warn",
 
+        "@typescript-eslint/require-array-sort-compare": "warn",
+        
         "@typescript-eslint/switch-exhaustiveness-check": ["error", {
             considerDefaultExhaustiveForUnions: true,
         }],
